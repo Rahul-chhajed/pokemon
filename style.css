@@ -1,0 +1,120 @@
+* {
+    background-color: #48CFCB;
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; /* Ensure consistent sizing */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Default font-family */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Example color for visibility */
+}
+
+.set {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically if the height changes */
+    flex-direction: row; 
+    flex-wrap: wrap; /* Allow wrapping if necessary */
+    gap: 10px; /* Space between items */
+    padding: 20px; /* Padding around container */
+    min-height: calc(100vh - 50px); /* Adjust for footer height */
+}
+
+.drum {
+    background-color: #F5F5F5;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    font-weight: 900;
+
+    height: 200px;
+    width: 200px;
+    border: 15px solid transparent;
+    border-radius: 20px;
+    background-size: cover; /* Ensure the image covers the element */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    background: #F5F5F5;
+    color: #229799;
+    text-align: right;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    overflow: hidden; /* Handle overflow text */
+    text-overflow: ellipsis; /* Ellipsis for overflowing text */
+}
+
+.red {
+    color: red;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.drum {
+    background-size: cover; /* Ensure background images cover the element */
+    background-position: center; /* Center background images */
+}
+
+.snorlax {
+    background-image: url(snorlax.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.charmendar {
+    background-image: url(charmendar.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bulbasaur {
+    background-image: url(bulbasaur.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.squirtel {
+    background-image: url(squirtel.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pikachu {
+    background-image: url(pikachu.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.eevee {
+    background-image: url(eevee.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wobbuffet {
+    background-image: url(wobbuffet.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
